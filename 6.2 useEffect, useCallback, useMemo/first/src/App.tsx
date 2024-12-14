@@ -13,7 +13,7 @@ function App() {
   },[value])  
   return (
     <>
-      <input onChange={(e) => setValue(e.target.value)} />
+      <input onChange={(e) => setValue(Number(e.target.value))} />
       <br />
       Sum is {sum} <br />
       <button
