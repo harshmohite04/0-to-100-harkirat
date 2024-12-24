@@ -1,8 +1,6 @@
 import {
   RecoilRoot,
-  useRecoilState,
   useRecoilValue,
-  useResetRecoilState,
   useSetRecoilState,
 } from "recoil";
 import "./App.css";
